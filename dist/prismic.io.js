@@ -879,7 +879,8 @@
     // -- Export Globally
 
     Global.Prismic = {
-        Api: prismic
+        Api: prismic,
+        Doc: Doc
     }
 
 }(typeof exports === 'object' && exports ? exports : (typeof module === "object" && module && typeof module.exports === "object" ? module.exports : window)));
